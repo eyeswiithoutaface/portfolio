@@ -1,0 +1,72 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    height: 550px;
+    width: 550px;
+    margin-top: 10px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Home{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#Project{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#moon{
+    cursor: pointer;
+    background: 0;
+    border: 0;
+    font-size: 20px;
+}
+
+.social{
+    position: absolute;
+    bottom: 0;
+}
+
+#Github{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+#X{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+.about{
+    margin-top: 70px;
+}
+
+h1{
+    font-size: 20px;
+}
+
+.dark-mode{
+    background-color: #212121;
+    color: white;
+}
+
+.dark-mode a{
+    color:white !important;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="Home.css">
+</head>
+<body>
+    <div class="center">
+    <div class="container">
+       <div class="Box">
+        <nav>
+            <button id="moon">&#x1F319;</button>
+            <div>
+            <a id="Home" href="Home.html">Home</a>
+            <a id="Project" href="Project.html">Project</a>
+            </div>
+        </nav>
+        <div class="about">
+        <h1> Hi, I'm Fur </h1>
+        <p>
+            I'm a first-year student,<br />
+            learning full-stack development!<br />
+            And honing my skills in competitive programming.
+          </p>
+          </div>
+        <div class="social">
+            <a target="_blank" id="Github" href="https://github.com/nectargrassem">Github</a>
+            <a target="_blank" id="X" href="https://x.com/unruelip">X</a>
+        </div>
+       </div>
+    </div>
+    </div>
+</body>
+<script>
+const body = document.querySelector('body')
+const button = document.getElementById('moon')
+
+button.addEventListener('click',function(){
+    body.classList.toggle('dark-mode')
+});
+</script>
+</html>

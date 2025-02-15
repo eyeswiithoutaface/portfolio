@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="Project.css">
+</head>
+<body>
+    <div class="center">
+    <div class="container">
+       <div class="Box">
+        <nav>
+            <button id="moon">&#x1F319;</button>
+            <div>
+            <a id="Home" href="Home.html">Home</a>
+            <a id="Project" href="Project.html">Project</a>
+            </div>
+        </nav>
+        <div class="about">
+        <h1> To-do List </h1>
+        <p>
+            made my first project using javascript, <br />
+            html and css.
+          </p>
+         <a target="_blank" href="https://github.com/nectargrassem/To-do-List" > Github</a>
+         <a target="_blank" href="https://nectargrassem.github.io/To-do-List/" > View</a>
+          </div>
+        <div class="social">
+            <a target="_blank" id="Github" href="https://github.com/nectargrassem">Github</a>
+            <a target="_blank" id="X" href="https://x.com/unruelip">X</a>
+        </div>
+       </div>
+    </div>
+    </div>
+</body>
+<script>
+const body = document.querySelector('body')
+const button = document.getElementById('moon')
+
+button.addEventListener('click',function(){
+    body.classList.toggle('dark-mode')
+});
+</script>
+</html>
